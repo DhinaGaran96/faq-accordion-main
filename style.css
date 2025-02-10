@@ -1,0 +1,96 @@
+*
+{
+    padding:0;
+    margin:0;
+    font-family: "work sans";
+}
+body{
+    background-image: url("assets/images/background-pattern-desktop.svg");
+}
+
+.main-container
+{
+    width:100%;
+    height:500px;
+    background-color: white;
+    position:fixed;
+    top:45%;
+   
+}
+.main-container-1
+{
+    width:550px;
+    height:450px;
+    background-color: hsl(275, 100%, 97%);
+    position: absolute;
+    bottom:50%;
+    left:35%;
+    border-radius: 20px;
+    padding:10px;
+}
+.faq
+{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+.faq h1{
+    padding-left: 20px;
+    color:hsl(292, 42%, 14%);
+}
+.container-1
+{
+    display: flex;
+    padding-left: 20px;
+    padding-top:20px;
+    color:hsl(292, 42%, 14%);
+}
+.container-1 img
+{
+    padding-left: 45px;
+}
+.container-2
+{
+    width:93%;
+    padding-left: 20px;
+    padding-top: 20px;
+    letter-spacing:1px ;
+    color:hsl(292, 16%, 49%);
+    font-size: 16px;
+}
+.container-3
+{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+.container-3 img
+{
+   padding-right:50px;
+}
+
+@media screen and (max-width:600px) {
+    .main-container
+    {
+        position: absolute;
+    }
+    .main-container-1
+    {
+        left:20%;
+        width:350px;
+        height:250px;
+        position: absolute;
+        bottom:80%;
+        
+    }
+    .container-1 {
+        width:80%;
+    }
+    .container-2
+    {
+        width:75%;
+    }
+    
+}
